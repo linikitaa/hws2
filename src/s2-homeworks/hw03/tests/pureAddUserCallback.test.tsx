@@ -1,10 +1,14 @@
 import React from 'react'
-import {pureAddUserCallback} from '../HW3'
+import {pureAddUserCallback, UserType} from '../HW3'
 
-let initialState: any[]
-const setName = (a: any[]) => {
-    initialState = a
-}
+let initialState: UserType[]
+// const setName = (a: any[]) => {
+//     initialState = a
+// }
+const setName = (value: React.SetStateAction<UserType[]>) => {
+    initialState = typeof value === 'function' ? value(initialState) : value;
+};
+
 
 beforeEach(() => {
     initialState = []
