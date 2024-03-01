@@ -2,7 +2,7 @@
     border-radius: 3px;
     padding: 5px 24px;
     color: #DDEEFF;
-    min-width: 130px;
+    min-width: 100px;
     min-height: 30px;
     font-weight: 600;
     cursor: pointer;
@@ -18,7 +18,6 @@
 .secondary {
     border: 1px solid #0066CC;
     color: #0066CC;
-    min-width: 175px;
 }
 
 .default {

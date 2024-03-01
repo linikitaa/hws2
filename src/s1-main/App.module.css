@@ -24,7 +24,7 @@
 }
 .hwTitle:after {
     content: '';
-    border-top: 1px solid #D9D9D9;
+    border-top: 2px solid #D9D9D9;
     width: 100%;
     position: absolute;
     top: 35px;
