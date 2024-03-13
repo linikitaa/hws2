@@ -1,14 +1,24 @@
 .buttonsContainer {
+    display: flex;
+    gap: 20px;
 }
 
 .clock {
+    position: relative;
+
 }
 
 .watch {
+    margin-bottom: 45px;
+
 }
 
 .watch strong {
 }
 
 .more {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    color: rgba(0, 0, 0, 0.51);
 }
