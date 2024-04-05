@@ -19,5 +19,8 @@ html {
 }
 
 .select {
-
+    padding: 10px 100px 10px 10px;
+    font-size: 14px;
+    background-color: inherit;
+    color: var(--color)
 }
