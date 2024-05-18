@@ -1,9 +1,7 @@
-
 .App {
-    --header_height: 60px;
-    max-width: 1050px;
-    margin: 0 auto 110px;
-
+  --header_height: 60px;
+  max-width: 1050px;
+  margin: 0 auto 110px;
 }
 
 /*.hw:before {*/
@@ -16,25 +14,24 @@
 /*}*/
 
 .hwTitle {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
-    font-weight: 600;
-    margin: 50px 0 50px;
-    position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 50px 0 50px;
+  position: relative;
 }
 .hwTitle:after {
-    content: '';
-    border-top: 2px solid #D9D9D9;
-    width: 100%;
-    position: absolute;
-    top: 35px;
-    left: 0;
+  content: "";
+  border-top: 2px solid #d9d9d9;
+  width: 100%;
+  position: absolute;
+  top: 35px;
+  left: 0;
 }
-.content{
-    display: flex;
-    justify-content: revert;
+.content {
+  display: flex;
+  justify-content: revert;
 }
 
 .message {
-
 }
