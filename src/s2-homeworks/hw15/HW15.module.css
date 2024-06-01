@@ -14,10 +14,19 @@
 
 .row {
   display: flex;
+  padding: 10px;
+
+  border-bottom: 1px solid #d5d1d1;
+  &:last-child {
+    border: none;
+  }
 }
 
 .rowHeader {
   display: flex;
+  padding: 10px;
+  background-color: #d5d1d1;
+  margin-top: 20px;
 }
 
 .loading {

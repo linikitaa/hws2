@@ -26,7 +26,7 @@ const HW12 = () => {
     // дописать функцию
     dispatch(changeThemeId(id));
   };
-  console.log(themeId);
+
   useEffect(() => {
     document.documentElement.dataset.theme = themeId + "";
   }, [themeId]);
